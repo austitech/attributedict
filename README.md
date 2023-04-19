@@ -3,7 +3,7 @@ Python builtin dictionary extension that supports dot notation access. Trying to
 
 # Usage
 ```
-from attributedict import AttributeDict
+from dictextra import AttributeDict
 
 
 mydict = {"country": "Nigeria", "coords": [{"lat": 33567.6, "long": 37363.7}]}
@@ -21,14 +21,14 @@ longitude = coords[0]["long"] // can also access it the traditional way
 Package can be installed from pypi using pip as below
 
 ```
-pip install attributedict
+pip install dictextra
 ```
 
 Alternatively, clone the repo and install package from source as below:
 
 ```
-git clone https://github.com/austitech/attributedict
-cd attributedict
+git clone https://github.com/austitech/dictextra
+cd dictextra
 python3 setup.py sdist
 ```
 

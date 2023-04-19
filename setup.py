@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='austitech-attributedict',
+    name='dictextra',
     version='0.1',
     license='MIT',
     author="Josiah Augustine Onyemaechi",
     author_email='josiah.augustine.o@gmail.com',
     packages=find_packages('./'),
     package_dir={'': './'},
-    url='https://github.com/austitech/attributedict',
+    url='https://github.com/austitech/dictextra',
     keywords='python, dict, extension',
     install_requires=[],
 )
