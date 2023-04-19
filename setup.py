@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dictextra',
-    version='0.1',
+    version='0.11',
     license='MIT',
     author="Josiah Augustine Onyemaechi",
     author_email='josiah.augustine.o@gmail.com',
